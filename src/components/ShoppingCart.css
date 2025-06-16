@@ -1,0 +1,41 @@
+.shopping-cart {
+    padding: 20px;
+    max-width: 800px;
+    content: justify;
+    height: 400px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+.shopping-cart ul {
+    list-style: none;
+    padding: 0;
+}
+
+.shopping-cart li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.shopping-cart button {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.payment-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.upi-methods {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

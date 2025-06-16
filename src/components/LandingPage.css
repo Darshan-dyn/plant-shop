@@ -1,0 +1,59 @@
+.get-started-button {
+    padding: 12px 24px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.landing-hero {
+    width: 2000px;
+    height: 1000px;
+    margin: 0 auto;
+    /* Center horizontally */
+
+    background-image: url('C:\Users\sanja\React-Project\greenlife.png');
+
+    /* ✅ Use relative path inside src */
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    /* optional: better visual feel */
+}
+
+.fullscreen-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.landing-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* optional dark overlay */
+    padding: 40px;
+    border-radius: 12px;
+    max-width: 800px;
+    font-family: 'Arial', sans-serif;
+}
+
+.landing-overlay h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.landing-overlay p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}

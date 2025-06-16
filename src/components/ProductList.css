@@ -1,0 +1,87 @@
+.product-list {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.product-list h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.product-list h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 370px;
+    justify-content: center;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+
+    /* ✅ Ensure consistent height and spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 360px;
+    /* Adjusted for uniform layout */
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: auto;
+    height: 180px;
+    max-width: 100%;
+    object-fit: contain;
+    /* This keeps full image visible */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+.product-card h4 {
+    font-size: 1.2rem;
+    margin: 10px 0 5px;
+}
+
+.product-card p {
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.product-card button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+    margin-top: auto;
+    /* ✅ Ensures button stays at bottom */
+}
+
+.product-card button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}

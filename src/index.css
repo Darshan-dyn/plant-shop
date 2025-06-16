@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* === Global Dark Theme === */
+.dark {
+  background-color: #121212;
+  color: #f0f0f0;
+  min-height: 100vh;
+}
+
+/* Ensure all child elements inherit colors */
+.dark * {
+  background-color: inherit;
+  color: inherit;
+}
+
+/* Optional: Specific UI elements */
+.dark a {
+  color: #90caf9 !important;
+}
+
+.dark input,
+.dark select,
+.dark textarea,
+.dark button {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  border: 1px solid #666;
+}
+
+.dark .product-card,
+.dark .shopping-cart,
+.dark .form-container {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px 0;
+}
+
+.dark .cart-summary {
+  background-color: #1a1a1a;
+  padding: 12px;
+  border-radius: 6px;
+}

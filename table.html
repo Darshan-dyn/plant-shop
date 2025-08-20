@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Timetable</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 1200px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 0.9em;
+            text-align: left;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        }
+
+        thead tr {
+            background-color: #4CAF50;
+            color: #ffffff;
+            text-align: left;
+            font-weight: bold;
+        }
+
+        th,
+        td {
+            padding: 12px 15px;
+            border: 1px solid #dddddd;
+            transition: background-color 0.3s ease;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+
+        tbody tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        tbody tr:last-of-type {
+            border-bottom: 2px solid #4CAF50;
+        }
+
+        td:nth-child(1) {
+            font-weight: bold;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Weekly Timetable</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>9:00 AM - 10:00 AM</td>
+                    <td>Math</td>
+                    <td>Physics</td>
+                    <td>Chemistry</td>
+                    <td>Math</td>
+                    <td>History</td>
+                </tr>
+                <tr>
+                    <td>10:00 AM - 11:00 AM</td>
+                    <td>English</td>
+                    <td>Biology</td>
+                    <td>Computer Science</td>
+                    <td>English</td>
+                    <td>Art</td>
+                </tr>
+                <tr>
+                    <td>11:00 AM - 12:00 PM</td>
+                    <td>Break</td>
+                    <td>Break</td>
+                    <td>Break</td>
+                    <td>Break</td>
+                    <td>Break</td>
+                </tr>
+                <tr>
+                    <td>12:00 PM - 1:00 PM</td>
+                    <td>History</td>
+                    <td>Chemistry</td>
+                    <td>Physics</td>
+                    <td>Biology</td>
+                    <td>Computer Science</td>
+                </tr>
+                <tr>
+                    <td>1:00 PM - 2:00 PM</td>
+                    <td>Lunch</td>
+                    <td>Lunch</td>
+                    <td>Lunch</td>
+                    <td>Lunch</td>
+                    <td>Lunch</td>
+                </tr>
+                <tr>
+                    <td>2:00 PM - 3:00 PM</td>
+                    <td>Physics</td>
+                    <td>Math</td>
+                    <td>English</td>
+                    <td>History</td>
+                    <td>Math</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>
